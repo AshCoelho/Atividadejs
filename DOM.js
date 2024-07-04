@@ -20,3 +20,9 @@ novo.src = "https://picsum.photos/200/300?random=1"
 novo.style.border = "1px solid black"
 novo.setAttribute('title', 'inserido')
 document.querySelector('body').appendChild(novo)
+
+let nome = prompt("qual seu nome? ")
+
+const nome_place = document.createElement('h1')
+nome_place.innerHTML = nome
+document.querySelector('body').appendChild(nome_place)
