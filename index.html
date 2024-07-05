@@ -5,14 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!--<script src="script.js"></script>-->
-    <script src="DOM.js" defer></script>
+    <!--<script src="DOM.js" defer></script>-->
+    <script src="exercicio.js" defer></script>
+    <style>
+        #lampada, #lampadaAcesa {
+            width: 200px;
+            height: auto;
+        }
+        button {
+            margin: 1rem;
+            padding: 10px;
+            border-radius: 10px;
+            border: none;
+        }
+
+        button:hover {
+            background-color: yellow;
+        }
+
+        #container {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
 </head>
 <body>
-    <p id="olá"></p>
+    <!--<p id="olá"></p>
 
     <p class="centralizar">Texto parágrafo</p>
     <h1 class="centralizar">Titulo </h1>
 
-    <button id="btn_aviso">fhweifhei</button>
+    <button id="btn_aviso">fhweifhei</button>-->
+    <!--<h1></h1>-->
+    <div id="container">
+        <h1>Testar lâmpada</h1>
+        <img id="lampada" src="lampada.jpg" alt=""> 
+        
+        <br>
+        <button onclick="ligar()">Ligar</button>
+        <button onclick="desligar()">Desligar</button>
+    </div>
 </body>
 </html>
