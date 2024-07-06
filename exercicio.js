@@ -9,7 +9,7 @@ document.querySelector('body').appendChild(novo_nome)*/
 // 02
 
 function ligar() {
-    document.getElementById('lampada').src = 'lampada_Acesa.jpg'
+    document.getElementById('lampada').src = 'lampada_acesa.jpg'
 }
 
 function desligar() {
